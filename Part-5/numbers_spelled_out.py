@@ -1,6 +1,6 @@
 """
 Author: Nicola "Nikki" Ward (@NikkiNight)
-Project: MOOC.fi Python - Part 4
+Project: MOOC.fi Python - Part 5
 
 Please write a function named dict_of_numbers(), which returns a new dictionary.
 The dictionary should have the numbers from 0 to 99 as its keys.
