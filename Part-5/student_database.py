@@ -42,7 +42,6 @@ def print_student(students: list, name: str):
             for (course_name, grade) in students[name]: # For the course_name and grade in students name
                 total_grades += grade # Sum the grades
                 average = total_grades / len(students[name]) # Sum divided by amount of courses
-
             print(f' average grade {average}')
     else: # If the students name doesnt exist in the dictionary
         print(f'{name}: no such person in the database')
@@ -69,7 +68,6 @@ def summary(students: list):
     count = len(students[most_courses]) # Count the amount of courses taken by that student
 
     print(f'most courses completed {count} {most_courses}') # Prints amount of courses taken and then the student name
-    # {max(students, key=lambda name: len(students[name]))}
 
     # Calc the best average grade
     best_average = 0 # Store the best grade average
