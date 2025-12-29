@@ -9,7 +9,7 @@ Completing all 40 exercises awards 10 points. The number of points awarded is al
 The final grade for the course is determined based on the sum of exam and exercise points.
 """
 
-# wwite your solution here
+# write your solution here
 students_info = input("Students file: ")
 exercise_data = input("Exercise file: ")
 exam_data = input("Exam file: ")
